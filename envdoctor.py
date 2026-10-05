@@ -2,7 +2,7 @@
 """envdoctor: diagnose .env files against .env.example (missing / extra / empty / leaked secrets)."""
 import argparse, json, re, subprocess, sys
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 LINE = re.compile(r"^\s*(?:export\s+)?([A-Za-z_][A-Za-z0-9_.-]*)\s*=\s*(.*)$")
 SECRET_KEY = re.compile(r"(SECRET|TOKEN|PASSWORD|PASSWD|PRIVATE|API_?KEY|ACCESS_?KEY|CREDENTIAL)", re.I)

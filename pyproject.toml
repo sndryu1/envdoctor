@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "envdoctor"
-version = "0.1.0"
+version = "0.1.1"
 description = "Diagnose .env files against .env.example: missing, extra, empty and leaked secrets"
 readme = "README.md"
 license = { text = "MIT" }
