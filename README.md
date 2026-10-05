@@ -11,6 +11,14 @@ $ python envdoctor.py
 ✗ .env is not in .gitignore - it could be committed
 ```
 
+## インストール
+```
+pip install git+https://github.com/sndryu1/envdoctor.git
+```
+(PyPI 公開後は `pip install envdoctor`)
+
+**実行ファイル(Python 不要):** [Releases](https://github.com/sndryu1/envdoctor/releases) から Windows / macOS / Linux 用をダウンロード。
+
 ## 検出するもの
 | コード | レベル | 内容 |
 |---|---|---|
